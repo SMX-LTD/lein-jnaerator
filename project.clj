@@ -4,4 +4,6 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :eval-in-leiningen true
-  :dependencies [[com.nativelibs4java/jnaerator "0.11"]])
+  :dependencies [[com.nativelibs4java/jnaerator "0.11"]]
+  :lein-release {:deploy-via :clojars})
+
